@@ -117,12 +117,12 @@ if __name__ == "__main__":
 
                 # Automating system applications
                 elif 'downloads in system' in query:
-                    download_dir = 'C:\\Users\\Narauttam Singh\\Downloads'
+                    download_dir = 'your-path'
                     download_list = os.listdir(download_dir)
                     print(download_list)
 
                 elif 'open code' in query:
-                    codePath = "C:\\Users\\Narauttam Singh\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe"
+                    codePath = "your-path"
                     os.startfile(codePath)
                 
                 # Switch to next application
